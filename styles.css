@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: auto;
+  text-align: center;
 }
 
 .container {
@@ -10,6 +12,7 @@
   text-align: center;
   justify-content: center;
   padding-bottom: 10px;
+  gap: 2px;
 }
 
 .display-box {
@@ -27,4 +30,8 @@
 .display {
   margin: auto;
   padding-top: 14px;
+}
+
+h1 {
+  padding: 2rem;
 }
